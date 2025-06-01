@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>images/Owl.jpg</name>
+			<type>1</type>
+			<location>C:/Users/SKB_k/OneDrive/Documents/GitHub/level-0-module-4-ShailBrixey/images/Owl.jpg</location>
+		</link>
+	</linkedResources>
 </projectDescription>
