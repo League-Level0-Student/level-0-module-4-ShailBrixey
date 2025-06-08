@@ -5,7 +5,7 @@ import java.io.File;
 import javax.sound.sampled.AudioInputStream;
 import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
-
+PImage face;
 import processing.core.PApplet;
 import processing.core.PImage;
 
@@ -50,7 +50,9 @@ public class WheresWaldo extends PApplet {
 
     @Override
     public void setup() {
-        
+    	waldo = loadImage("waldo.jpg");
+    	waldo.resize(WIDTH, HEIGHT);
+    	println("X: " + mouseX + " Y: " + mouseY);
     }
 
     @Override
