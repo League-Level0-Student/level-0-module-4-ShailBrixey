@@ -18,7 +18,10 @@ public class Pong extends PApplet {
 
     @Override
     public void draw() {
-
+    	ellipse(400,300,20,20);
+    	fill(0,0,255);
+    	stroke(255,0,0);
+    	int speed = 5;
     }
 
     static public void main(String[] args) {
